@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menuiserie Dubois — Artisan menuisier à Nogent-sur-Marne</title>
+<meta name="description" content="Menuiserie Dubois, artisan menuisier depuis 18 ans à Nogent-sur-Marne. Aménagements sur mesure, portes, fenêtres, escaliers, cuisines. Devis gratuit.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lb-close">✕</button>
+  <button class="lightbox-nav lightbox-prev" id="lb-prev">‹</button>
+  <img id="lb-img" src="" alt="Réalisation Menuiserie Dubois">
+  <button class="lightbox-nav lightbox-next" id="lb-next">›</button>
+  <div class="lightbox-counter" id="lb-count">1 / 6</div>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#hero" class="nav-logo">
+    Menuiserie Dubois
+    <span class="nav-logo-sub">Artisan menuisier · Depuis 2006</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#savoirfaire">Savoir-faire</a></li>
+    <li><a href="#galerie">Galerie</a></li>
+    <li><a href="#realisations">Réalisations</a></li>
+    <li><a href="#avis">Avis</a></li>
+  </ul>
+  <a href="#devis" class="nav-cta">Devis gratuit</a>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-bg">
+    <img
+      src="https://images.unsplash.com/photo-1645651964715-d200ce0939cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="Atelier de menuiserie Dubois">
+  </div>
+  <div class="hero-content">
+    <div class="hero-label">Artisan menuisier · Nogent-sur-Marne · Val-de-Marne</div>
+    <h1 class="hero-title">
+      Le bois travaillé<br>
+      avec <em>exigence</em>
+    </h1>
+    <p class="hero-sub">
+      Aménagements intérieurs sur mesure, portes, fenêtres, escaliers, cuisines. Chaque pièce est conçue et fabriquée dans notre atelier, pour durer.
+    </p>
+    <div class="hero-actions">
+      <a href="#devis" class="btn-or">Demander un devis</a>
+      <a href="#galerie" class="btn-ghost">Voir nos réalisations</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-val">18</div>
+      <div class="stat-label">ans d'atelier</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">350+</div>
+      <div class="stat-label">chantiers réalisés</div>
+    </div>
+    <div class="stat">
+      <div class="stat-val">4.9★</div>
+      <div class="stat-label">note Google</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SAVOIR-FAIRE ══ -->
+<section id="savoirfaire">
+  <div class="container">
+    <div class="sf-grid">
+      <div class="sf-photo reveal-l">
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80"
+          alt="Frédéric Dubois dans son atelier">
+      </div>
+      <div class="sf-content reveal-r">
+        <div class="s-label">Le métier</div>
+        <h2 class="s-title">Un atelier,<br><em>un artisan</em></h2>
+        <p class="s-intro">
+          Frédéric Dubois fabrique et pose chaque élément lui-même, avec ses compagnons. Pas de sous-traitance, pas de catalogue — uniquement du sur-mesure conçu pour votre espace et votre usage.
+        </p>
+        <div class="sf-liste">
+          <div class="sf-item">
+            <span class="sf-nom">Aménagements intérieurs</span>
+            <span class="sf-detail">Dressing, bibliothèque, rangements</span>
+            <span class="sf-arrow">→</span>
+          </div>
+          <div class="sf-item">
+            <span class="sf-nom">Cuisine sur mesure</span>
+            <span class="sf-detail">Conception & fabrication</span>
+            <span class="sf-arrow">→</span>
+          </div>
+          <div class="sf-item">
+            <span class="sf-nom">Escaliers</span>
+            <span class="sf-detail">Bois massif, métal & bois</span>
+            <span class="sf-arrow">→</span>
+          </div>
+          <div class="sf-item">
+            <span class="sf-nom">Portes & fenêtres</span>
+            <span class="sf-detail">Bois, double vitrage</span>
+            <span class="sf-arrow">→</span>
+          </div>
+          <div class="sf-item">
+            <span class="sf-nom">Parquet & revêtements</span>
+            <span class="sf-detail">Pose & rénovation</span>
+            <span class="sf-arrow">→</span>
+          </div>
+          <div class="sf-item">
+            <span class="sf-nom">Rénovation & restauration</span>
+            <span class="sf-detail">Pièces anciennes & classées</span>
+            <span class="sf-arrow">→</span>
+          </div>
+        </div>
+        <div class="sf-engagements">
+          <div class="engagement">
+            <span class="engagement-icon">🌳</span>
+            <div class="engagement-title">Bois certifiés</div>
+            <div class="engagement-desc">PEFC et FSC, issus de forêts gérées durablement.</div>
+          </div>
+          <div class="engagement">
+            <span class="engagement-icon">📐</span>
+            <div class="engagement-title">Sur mesure total</div>
+            <div class="engagement-desc">Chaque pièce est unique, conçue pour votre espace.</div>
+          </div>
+          <div class="engagement">
+            <span class="engagement-icon">🤝</span>
+            <div class="engagement-title">Devis transparent</div>
+            <div class="engagement-desc">Prix ferme avant de commencer. Aucune surprise.</div>
+          </div>
+          <div class="engagement">
+            <span class="engagement-icon">🛡️</span>
+            <div class="engagement-title">Garantie 10 ans</div>
+            <div class="engagement-desc">Sur l'ensemble de nos fabrications et poses.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GALERIE ══ -->
+<section id="galerie">
+  <div class="container">
+    <div class="galerie-header reveal">
+      <div>
+        <div class="s-label">Photos de chantier</div>
+        <h2 class="s-title">La <em>galerie</em></h2>
+      </div>
+      <p class="s-intro" style="text-align:right;max-width:320px">Cliquez sur une photo pour l'agrandir. Chaque image est issue d'un vrai chantier réalisé par notre équipe.</p>
+    </div>
+    <div class="galerie-grid">
+
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=900&q=80" alt="Cuisine sur mesure en chêne">
+        <div class="g-overlay"><span class="g-label">Cuisine chêne massif · Vincennes</span></div>
+        <div class="g-zoom">⊕</div>
+      </div>
+
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=600&q=80" alt="Escalier bois sur mesure">
+        <div class="g-overlay"><span class="g-label">Escalier droit · Nogent-sur-Marne</span></div>
+        <div class="g-zoom">⊕</div>
+      </div>
+
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1647011904909-4264920b8843?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Bibliothèque sur mesure">
+        <div class="g-overlay"><span class="g-label">Bibliothèque encastrée · Paris 12e</span></div>
+        <div class="g-zoom">⊕</div>
+      </div>
+
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80" alt="Aménagement intérieur bois">
+        <div class="g-overlay"><span class="g-label">Dressing sur mesure · Saint-Mandé</span></div>
+        <div class="g-zoom">⊕</div>
+      </div>
+
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=900&q=80" alt="Parquet bois massif">
+        <div class="g-overlay"><span class="g-label">Parquet chêne huilé · Montreuil</span></div>
+        <div class="g-zoom">⊕</div>
+      </div>
+
+      <div class="g-item">
+        <img src="https://images.unsplash.com/photo-1759306326997-1d1ed4c63f7a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Porte intérieure bois">
+        <div class="g-overlay"><span class="g-label">Portes intérieures · Charenton</span></div>
+        <div class="g-zoom">⊕</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ RÉALISATIONS ══ -->
+<section id="realisations">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:1rem">
+      <div class="s-label">Projets récents</div>
+      <h2 class="s-title">Quelques <em>réalisations</em></h2>
+    </div>
+    <p class="s-intro reveal d1" style="margin-bottom:0">Des projets variés qui illustrent l'étendue de notre savoir-faire, du petit aménagement à la rénovation complète.</p>
+    <div class="real-grid">
+
+      <div class="real-card">
+        <div class="real-img">
+          <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=600&q=80" alt="Cuisine sur mesure">
+        </div>
+        <div class="real-body">
+          <div class="real-cat">Cuisine</div>
+          <div class="real-title">Cuisine en chêne massif — Vincennes</div>
+          <div class="real-desc">Conception et fabrication complète d'une cuisine sur mesure en chêne massif huilé. Ilot central, rangements intégrés, plan de travail en quartz.</div>
+          <div class="real-tags">
+            <span class="real-tag">Chêne massif</span>
+            <span class="real-tag">Sur mesure</span>
+            <span class="real-tag">Ilot</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="real-card">
+        <div class="real-img">
+          <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=600&q=80" alt="Escalier bois">
+        </div>
+        <div class="real-body">
+          <div class="real-cat">Escalier</div>
+          <div class="real-title">Escalier métal & bois — Paris 12e</div>
+          <div class="real-desc">Escalier droit limon métal et marches en chêne massif 60mm. Garde-corps en fer forgé. Conception en atelier, pose en 2 jours.</div>
+          <div class="real-tags">
+            <span class="real-tag">Métal & bois</span>
+            <span class="real-tag">Sur mesure</span>
+            <span class="real-tag">Garde-corps</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="real-card">
+        <div class="real-img">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80" alt="Dressing sur mesure">
+        </div>
+        <div class="real-body">
+          <div class="real-cat">Aménagement</div>
+          <div class="real-title">Dressing intégré — Saint-Mandé</div>
+          <div class="real-desc">Dressing sur mesure du sol au plafond, 4 mètres linéaires. Portes coulissantes miroir, éclairage intégré LED, rangements personnalisés.</div>
+          <div class="real-tags">
+            <span class="real-tag">Dressing</span>
+            <span class="real-tag">Portes miroir</span>
+            <span class="real-tag">LED</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ DEVIS ══ -->
+<section id="devis">
+  <div class="container">
+    <div class="devis-grid">
+      <div class="devis-left reveal-l">
+        <div class="s-label">Gratuit & sans engagement</div>
+        <h2 class="s-title">Demandez<br>un <em>devis</em></h2>
+        <p class="s-intro">Décrivez votre projet, je vous rappelle pour en discuter et vous envoie un devis détaillé sous 48h.</p>
+        <div class="devis-contact-cards">
+          <div class="d-card">
+            <div class="d-icon">📞</div>
+            <div>
+              <div class="d-label">Téléphone</div>
+              <div class="d-val"><a href="tel:+33600000000">06 00 00 00 00</a></div>
+            </div>
+          </div>
+          <div class="d-card">
+            <div class="d-icon">📧</div>
+            <div>
+              <div class="d-label">Email</div>
+              <div class="d-val"><a href="mailto:contact@menuiserie-dubois.fr">contact@menuiserie-dubois.fr</a></div>
+            </div>
+          </div>
+          <div class="d-card">
+            <div class="d-icon">📍</div>
+            <div>
+              <div class="d-label">Atelier</div>
+              <div class="d-val">12 rue des Artisans, 94130 Nogent-sur-Marne</div>
+            </div>
+          </div>
+          <div class="d-card">
+            <div class="d-icon">🕐</div>
+            <div>
+              <div class="d-label">Horaires</div>
+              <div class="d-val">Lun–Ven · 7h30–18h</div>
+            </div>
+          </div>
+        </div>
+        <div class="devis-note">
+          <p><strong>Dévis sous 48h.</strong> Nous intervenons dans tout le Val-de-Marne et Paris intramuros. Déplacement pour visite technique gratuit.</p>
+        </div>
+      </div>
+
+      <div class="devis-form reveal-r">
+        <div class="f-row">
+          <div class="f-field">
+            <label>Prénom & Nom</label>
+            <input type="text" placeholder="Jean Dupont">
+          </div>
+          <div class="f-field">
+            <label>Téléphone</label>
+            <input type="tel" placeholder="06 00 00 00 00">
+          </div>
+        </div>
+        <div class="f-field">
+          <label>Email</label>
+          <input type="email" placeholder="jean@email.fr">
+        </div>
+        <div class="f-row">
+          <div class="f-field">
+            <label>Type de projet</label>
+            <select>
+              <option value="">Choisir…</option>
+              <option>Cuisine sur mesure</option>
+              <option>Aménagement intérieur</option>
+              <option>Escalier</option>
+              <option>Portes & fenêtres</option>
+              <option>Parquet</option>
+              <option>Rénovation</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="f-field">
+            <label>Budget indicatif</label>
+            <select>
+              <option value="">Choisir…</option>
+              <option>Moins de 3 000 €</option>
+              <option>3 000 – 8 000 €</option>
+              <option>8 000 – 20 000 €</option>
+              <option>Plus de 20 000 €</option>
+              <option>Je ne sais pas encore</option>
+            </select>
+          </div>
+        </div>
+        <div class="f-row">
+          <div class="f-field">
+            <label>Ville / commune</label>
+            <input type="text" placeholder="Nogent-sur-Marne, Paris…">
+          </div>
+          <div class="f-field">
+            <label>Délai souhaité</label>
+            <select>
+              <option value="">Choisir…</option>
+              <option>Dès que possible</option>
+              <option>Dans 1 à 3 mois</option>
+              <option>Dans 3 à 6 mois</option>
+              <option>Pas encore défini</option>
+            </select>
+          </div>
+        </div>
+        <div class="f-field">
+          <label>Décrivez votre projet</label>
+          <textarea placeholder="Ex : dressing dans une chambre de 12m², du sol au plafond, avec portes coulissantes. Murs en biais d'un côté…"></textarea>
+        </div>
+        <button class="btn-or btn-devis" style="width:100%;justify-content:center;">
+          Envoyer ma demande de devis →
+        </button>
+        <div class="f-note">Réponse sous 48h · Devis gratuit · Visite technique offerte · Aucun engagement</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ AVIS ══ -->
+<section id="avis">
+  <div class="container">
+    <div class="avis-top reveal">
+      <div>
+        <div class="s-label">Ce qu'ils en disent</div>
+        <h2 class="s-title">Avis <em>clients</em></h2>
+      </div>
+      <div class="avis-score">
+        <div class="avis-score-big">4.9</div>
+        <div>
+          <div class="avis-score-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="avis-score-count">Basé sur 186 avis Google</div>
+        </div>
+      </div>
+    </div>
+    <div class="avis-grid">
+
+      <div class="avis-card">
+        <div class="avis-card-top">
+          <div class="avis-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="avis-date">Il y a 3 semaines</div>
+        </div>
+        <div class="avis-text">« Frédéric a réalisé notre cuisine sur mesure en chêne. Du premier rendez-vous à la livraison, tout s'est passé exactement comme prévu — dans les délais, dans le budget, avec un résultat qui dépasse nos attentes. »</div>
+        <div class="avis-author">
+          <div class="avis-avatar">LP</div>
+          <div>
+            <div class="avis-name">Laurent P.</div>
+            <div class="avis-meta">Cuisine sur mesure · Vincennes</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="avis-card">
+        <div class="avis-card-top">
+          <div class="avis-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="avis-date">Il y a 2 mois</div>
+        </div>
+        <div class="avis-text">« Escalier magnifique, fait exactement selon nos souhaits. Les délais annoncés ont été respectés à la semaine près. L'équipe est sérieuse, propre sur chantier et vraiment à l'écoute. Je recommande sans hésitation. »</div>
+        <div class="avis-author">
+          <div class="avis-avatar">SM</div>
+          <div>
+            <div class="avis-name">Sophie M.</div>
+            <div class="avis-meta">Escalier · Paris 12e</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="avis-card">
+        <div class="avis-card-top">
+          <div class="avis-stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <div class="avis-date">Il y a 4 mois</div>
+        </div>
+        <div class="avis-text">« Dressing sur mesure pour une chambre avec une configuration difficile (murs en biais, sous-pente). Frédéric a trouvé des solutions auxquelles on n'avait pas pensé. Le rendu est parfait et très solide. »</div>
+        <div class="avis-author">
+          <div class="avis-avatar">AB</div>
+          <div>
+            <div class="avis-name">Amélie B.</div>
+            <div class="avis-meta">Dressing · Saint-Mandé</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="f-logo">Menuiserie Dubois</span>
+      <span class="f-logo-sub">Artisan menuisier · Nogent-sur-Marne</span>
+      <p class="f-desc">Fabrication et pose de menuiseries sur mesure dans le Val-de-Marne et Paris depuis 2006. Bois certifiés, garantie 10 ans, devis gratuit.</p>
+    </div>
+    <div class="f-col">
+      <div class="f-col-title">Navigation</div>
+      <ul>
+        <li><a href="#savoirfaire">Savoir-faire</a></li>
+        <li><a href="#galerie">Galerie photos</a></li>
+        <li><a href="#realisations">Réalisations</a></li>
+        <li><a href="#devis">Demander un devis</a></li>
+        <li><a href="#avis">Avis clients</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <div class="f-col-title">Prestations</div>
+      <ul>
+        <li><a href="#devis">Cuisines sur mesure</a></li>
+        <li><a href="#devis">Aménagements intérieurs</a></li>
+        <li><a href="#devis">Escaliers</a></li>
+        <li><a href="#devis">Portes & fenêtres</a></li>
+        <li><a href="#devis">Parquet</a></li>
+      </ul>
+    </div>
+    <div class="f-col">
+      <div class="f-col-title">Contact</div>
+      <ul>
+        <li><a href="tel:+33600000000">06 00 00 00 00</a></li>
+        <li><a href="mailto:contact@menuiserie-dubois.fr">contact@menuiserie-dubois.fr</a></li>
+        <li><a href="#">12 rue des Artisans</a></li>
+        <li><a href="#">94130 Nogent-sur-Marne</a></li>
+        <li style="color:rgba(242,237,228,0.2);font-size:0.8rem">Lun–Ven · 7h30–18h</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Menuiserie Dubois · Artisan menuisier à Nogent-sur-Marne</span>
+    <span><a href="#">Mentions légales</a></span>
+    <span class="footer-credit">Site réalisé par <a href="#">Codeur de Vanves</a> · Développeur web</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
